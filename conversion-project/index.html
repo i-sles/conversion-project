@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="hero-div">
+            <h1 id="hero-title" class="hero-el">Metric/Imperial Unit Conversion</h1>
+            <div id="convert-num-div" class="hero-el">
+                <!-- <p id="convert-num">20</p> -->
+                <input type="number" id="convert-num">
+            </div>
+            <button id="convert-btn" class="hero-el">Convert</button>
+        </div>
+        <div id="convert-div">
+            <div class="convert-results ">
+                <h2 class="conversion-text">Length(Meter/Feet)</h2>
+                <p class="conversion-text" id="meter-text"> Meters to Feet | Feet to Meters</p>
+            </div>
+            
+            <div class="convert-results">
+                <h2 class="conversion-text">Volume(Liters/Gallons)</h2>
+                <p class="conversion-text" id="volume-text"> Gallons to Liters | Liters to Gallons </p>
+            </div>
+            
+            <div class="convert-results">
+                <h2 class="conversion-text">Mass (Kilograms/Pounds)</h2>
+                <p class="conversion-text" id="mass-text"> Kilograms to Pounds | Pounds to Liters </p>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

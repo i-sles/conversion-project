@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Hero Section */
+#hero-div {
+    margin: 0px;
+    padding: 5px;
+    background: #6943FF;
+    height: 285px;
+    /* text */
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 135.714% */
+    letter-spacing: -0.84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+#hero-title {
+    margin-bottom: 30px;
+}
+
+#convert-num-div {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border: solid 1px white;
+    width: 156px;
+    height: 101px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#convert-num {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px; 
+    background: none;
+    width: 156px;
+    height: 101px;
+    border: none;
+
+}
+
+/* Convert Div */
+#convert-div {
+    background: #1F2937; 
+    margin: 0px;
+    padding: 10px;
+    display: flex; /* Add this to make the container a flex container */
+    flex-direction: column; /* Stack the .convert-results divs vertically */
+    align-items: center;
+    
+}
+
+/* Convert Boxes */
+
+.convert-results {
+    background: #273549;
+    width: 500px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+
+.convert-results p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    
+}
+
+/* Convert Button */
+
+#convert-btn {
+    border-radius: 5px;
+    padding: 9px 27px;
+    border: none;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+div h2 {
+    color: #CCC1FF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div p {
+    color: #FFF;
+    text-align: center;
+
+    /* text-sm/leading-5/font-normal */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conversion-text {
+    display: flex;
+}
